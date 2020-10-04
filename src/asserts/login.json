@@ -1,0 +1,36 @@
+{
+  "label": "Please LogIn",
+  "labelType": "h2",
+  "formFeilds": [
+    {
+      "name": "email",
+      "type": "input",
+      "callBack":"handleFormChange",
+      "placeHolder":"Enter Email",
+      "TextType":"text"
+    },
+    {
+      "name": "password",
+      "type": "input",
+      "callBack":"handleFormChange",
+      "placeHolder":"Enter Password",
+      "TextType":"text"
+    },
+    {
+      "name": "login",
+      "type": "button",
+      "callBack":"login",
+      "TextType":"button",
+      "value":"LogIn",
+      "className":"loginButton"
+    },
+    {
+      "name": "Sign-up",
+      "type": "button",
+      "callBack":"signUp",
+      "TextType":"button",
+      "value":"Sign-up",
+      "className":"signupButton"
+    }
+  ]
+}
